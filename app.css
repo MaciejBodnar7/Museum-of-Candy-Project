@@ -1,8 +1,19 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 body {
     background-color: #f5d9df;
     font-family: "Nunito", sans-serif;
 }
 a.navbar-brand {
+    padding-left: 1rem;
+}
+.nav-link {
     padding-left: 1rem;
 }
 #mainNavbar {
@@ -17,4 +28,17 @@ a.navbar-brand {
 }
 #mainNavbar .navbar-brand {
     color: #EA1C2C;
+}
+.headin-slash {
+    color: #EA1C2C;
+}
+h1 {
+    font-weight: 100;
+    font-size: 3.5rem;
+}
+@media (max-width: 1200px) {
+    h1 {
+        font-weight: 100;
+        font-size: 2.5rem;
+    }
 }
