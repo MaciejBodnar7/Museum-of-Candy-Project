@@ -56,3 +56,7 @@ h1 {
 .contentlorem {
     margin-top: 100px;
 }
+.navbar.scrolled {
+    background: black;
+    transition: background 500ms;
+}
